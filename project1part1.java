@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class project1part1 {
 public static void main(String[] args){
       int Quarter, Dime, Nickel, Penny, amount2, amount;
-      System.out.print("Enter price of an item ");
+      System.out.print("Enter price of an item that you wish to purchase ");
       System.out.println("(from 25 cents to a dollar, in 5-cent increments:).");
       Scanner keyboard = new Scanner (System.in);
       amount = keyboard.nextInt();
